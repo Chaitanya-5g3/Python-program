@@ -1,0 +1,11 @@
+a=int(input())
+b=int(input())
+c=int(input())
+if a<b and a<c:
+   print("a is small",a)
+elif b<a and b<c:
+   print("b is small",b)
+elif c<b and c<a:
+   print("c is small",c)
+elif a==b==c:
+   print("all are equal ")
